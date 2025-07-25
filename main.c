@@ -11,4 +11,6 @@ int main(void)
     print_wrapped_paragraph_with_header("text: ", text2, 0);
     const char* text3 = "Lorem";
     print_wrapped_paragraph_with_header("text: ", text3, 0);
+    const char* longtext = "Loremipsumdolorsitamet,consecteturadipiscingelit,seddoeiusmodtemporincididuntutlaboreetdoloremagnaaliqua.";
+    print_wrapped_paragraph_with_header("text: ", longtext, 20);
 }
